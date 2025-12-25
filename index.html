@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио фотографа</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ФотоСтудия</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Галерея</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="alert alert-success alert-dismissible fade show m-3" role="alert">
+        <strong>Акция!</strong> Скидка 20% на свадебную съемку в этом месяце
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <section id="home">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/wedding.jpg" class="d-block w-100" alt="Слайд 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Профессиональная фотосъемка</h2>
+                        <p>Запечатлим ваши лучшие моменты</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <img src="img/commercial.jpg" class="d-block w-100" alt="Слайд 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Ну очень профессиональная фотосъемка</h2>
+                        <p>Точно запечатлим ваши лучшие моменты</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <img src="img/portrait.jpg" class="d-block w-100" alt="Слайд 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Прям очень очень профессиональная фотосъемка</h2>
+                        <p>Даем слово, что запечатлим ваши лучшие моменты</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Наши услуги</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/portrait.jpg" class="card-img-top" alt="Портретная съемка">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="card-title mb-0 me-1">Портретная съемка</h5>
+                                <span class="badge bg-danger">Хит</span>
+                            </div>
+                            <p class="card-text">
+                                Индивидуальные и семейные фотосессии.
+                                Профессиональная обработка всех снимков.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <p class="mb-2">Загруженность на этой неделе:</p>
+                                <div class="progress" style="height: 25px;">
+                                    <div class="progress-bar bg-warning progress-bar" style="width: 85%">
+                                        85%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-4">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/wedding.jpg" class="card-img-top" alt="Свадебная съемка">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-3">Свадебная съемка</h5>
+                            <p class="card-text">
+                                Полное сопровождение свадебного дня.
+                                Создание фотокниг и альбомов.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <p class="mb-2">Загруженность на этой неделе:</p>
+                                <div class="progress" style="height: 25px;">
+                                    <div class="progress-bar bg-info progress-bar" style="width: 65%">
+                                        65%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-4">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/commercial.jpg" class="card-img-top" alt="Коммерческая съемка">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="card-title mb-0 me-1">Коммерческая съемка</h5>
+                                <span class="badge bg-success">Новинка</span>
+                            </div>
+                            <p class="card-text">
+                                Фотографии для бизнеса, каталогов товаров и рекламных материалов.
+                            </p>
+                            <div class="mt-auto pt-3">
+                                <p class="mb-2">Загруженность на этой неделе:</p>
+                                <div class="progress" style="height: 25px;">
+                                    <div class="progress-bar bg-success progress-bar" style="width: 45%">
+                                        45%
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-4">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Галерея работ</h2>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/commercial.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal1" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/wedding.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal2" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/portrait.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal3" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/commercial.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal1" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/wedding.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal2" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/portrait.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal3" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/commercial.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal1" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <img src="img/wedding.jpg" class="img-fluid rounded" alt="Фото 1" data-bs-toggle="modal"
+                        data-bs-target="#imageModal2" style="cursor: pointer;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="imageModal1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Коммерческая съемка</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/commercial.jpg" class="img-fluid" alt="Фото 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal2" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Свадебная съемка</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/wedding.jpg" class="img-fluid" alt="Фото 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageModal3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Портретная съемка</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/portrait.jpg" class="img-fluid" alt="Фото 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+                            aria-expanded="true">
+                            Сколько стоит фотосессия?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Стоимость зависит от типа съемки и длительности. Портретная съемка от 5000Р, свадебная от
+                            30000Р, коммерческая обсуждается индивидуально.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+                            aria-expanded="false">
+                            Сколько фотографий я получу?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse collapsed" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            В зависимости от того - сколько заплатишь :)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+                            aria-expanded="false">
+                            Как быстро я получу готовые фотографии?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse collapsed" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            В зависимости от того - сколько заплатишь :)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Свяжитесь с нами</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" class="form-control" id="name" placeholder="Введите имя" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Тип съемки</label>
+                            <select class="form-select" id="service" required>
+                                <option value="" selected disabled>Выберите тип съемки</option>
+                                <option value="portrait">Портретная съемка</option>
+                                <option value="wedding">Свадебная съемка</option>
+                                <option value="commercial">Коммерческая съемка</option>
+                                <option value="family">Семейная фотосессия</option>
+                                <option value="event">Съемка мероприятий</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Расскажите о ваших пожеланиях"></textarea>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="agree" required>
+                            <label class="form-check-label" for="agree">
+                                Согласен с обработкой персональных данных
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>ФотоСтудия</h5>
+                    <p class="text-white-50">
+                        Профессиональная фотография с 2010 года
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Контакты</h5>
+                    <p class="text-white-50 mb-1">Email: info@photostudio.ru</p>
+                    <p class="text-white-50">Тел: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <p class="text-center text-white-50 mb-0">
+                &copy; 2024 ФотоСтудия. Все права защищены.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

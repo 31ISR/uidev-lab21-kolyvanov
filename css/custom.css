@@ -1,0 +1,107 @@
+:root {
+    --bs-primary: #ff6b6b;
+    --bs-secondary: #4ecdc4;
+    --bs-success: #1dd1a1;
+    --bs-info: #54a0ff;
+    --bs-warning: #ff9f43;
+    --bs-danger: #ee5253;
+    --bs-dark: #222f3e;
+}
+
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: #3a5a85 !important;
+    border-color: #3a5a85 !important;
+}
+
+.alert-success {
+    background-color: var(--bs-success) !important;
+    border-color: var(--bs-success) !important;
+    color: white !important;
+}
+
+.alert-success .btn-close {
+    filter: invert(1) brightness(100);
+}
+
+.badge.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.badge.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+.bg-dark {
+    background-color: var(--bs-dark) !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.progress-bar.bg-warning {
+    background-color: var(--bs-warning) !important;
+}
+
+.progress-bar.bg-info {
+    background-color: var(--bs-info) !important;
+}
+
+.progress-bar.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: #3a5a85 !important;
+    border-color: #3a5a85 !important;
+}
+
+.alert-success {
+    background-color: var(--bs-success) !important;
+    border-color: var(--bs-success) !important;
+    color: white !important;
+}
+
+.alert-success .btn-close {
+    filter: invert(1) brightness(100);
+}
+
+.badge.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.badge.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+.bg-dark {
+    background-color: var(--bs-dark) !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.progress-bar.bg-warning {
+    background-color: var(--bs-warning) !important;
+}
+
+.progress-bar.bg-info {
+    background-color: var(--bs-info) !important;
+}
+
+.progress-bar.bg-success {
+    background-color: var(--bs-success) !important;
+}
